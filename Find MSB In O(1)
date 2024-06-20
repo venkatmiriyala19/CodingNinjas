@@ -1,0 +1,11 @@
+from os import *
+from sys import *
+from collections import *
+from math import *
+
+def findMSB(n):
+    # print(bin(n))
+    a=len(bin(n))
+    return 2**(a-3)
+    # Write your code here.
+    pass
